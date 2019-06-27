@@ -27,9 +27,6 @@ class Card:
     def __repr__(self):
         return f"{self.value} of {self.suit}"
 
-this = Card("2", "Clubs")
-print(this)
-
 
 class Deck:
     def __init__(self, cards):
